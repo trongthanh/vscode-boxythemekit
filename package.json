@@ -1,0 +1,56 @@
+{
+    "name": "theme-boxythemekit",
+    "displayName": "Boxy Theme Kit",
+    "description": "Tomorrow Night, Monokai, Nova, Ocean, Solarized Dark, Solarized Light, and Yesterday color schemes in Sublime Boxy Theme kit.",
+    "version": "0.0.1",
+    "publisher": "trongthanh",
+    "license": "LICENSE.md",
+    "homepage": "https://github.com/ihodev/sublime-boxy",
+
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon":"icon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Boxy Tomorrow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Boxy Tomorrow.tmTheme"
+            },
+            {
+                "label": "Boxy Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Boxy Monokai.tmTheme"
+            },
+            {
+                "label": "Boxy Nova",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Boxy Nova.tmTheme"
+            },
+            {
+                "label": "Boxy Ocean",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Boxy Ocean.tmTheme"
+            },
+            {
+                "label": "Boxy Solarized Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Boxy Solarized Dark.tmTheme"
+            },
+            {
+                "label": "Boxy Solarized Light",
+                "uiTheme": "vs",
+                "path": "./themes/Boxy Solarized Light.tmTheme"
+            },
+            {
+                "label": "Boxy Yesterday",
+                "uiTheme": "vs",
+                "path": "./themes/Boxy Yesterday.tmTheme"
+            }
+        ]
+    }
+}
