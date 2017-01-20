@@ -27,7 +27,7 @@ For other themes, please feel free to send PR, I'll publish changes as soon as p
 This theme is based on the original Tomorrow Night theme with better syntax coloring for
 HTML, XML, Markdown, JSON, etc.
 
-![](https://raw.githubusercontent.com/Microsoft/vscode-themes/master/tomorrow/images/tomorrow-night-preview.png)
+![](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/tomorrow-night-preview.png)
 
 ## Boxy Yesterday
 [Preview TBD]
