@@ -1,6 +1,6 @@
 /**
  * An exceptionally useful comment
- * @param {param} description
+ * @param {string} param description
  * @return {Object} returned description
  */
 function func(param) {

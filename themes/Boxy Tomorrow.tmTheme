@@ -34,41 +34,41 @@
 				<key>popupCss</key>
 				<string>
 html {
-  background-color: #2a2b2d;
-  color: #c5c8c6;
+	background-color: #2a2b2d;
+	color: #c5c8c6;
 }
 
 a {
-  color: #81a2be;
+	color: #81a2be;
 }
 
 .error,
 .deleted {
-  color: #cc6666;
+	color: #cc6666;
 }
 
 .success,
 .inserted,
 .name {
-  color: #b5bd68;
+	color: #b5bd68;
 }
 
 .warning,
 .modified {
-  color: #f0c674;
+	color: #f0c674;
 }
 
 .type {
-  color: #8abeb7;
-  font-style: italic;
+	color: #8abeb7;
+	font-style: italic;
 }
 
 .param {
-  color: #de935f;
+	color: #de935f;
 }
 
 .current {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 </string>
 				<key>selection</key>
@@ -83,11 +83,24 @@ a {
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment</string>
+			<string>comment, punctuation.definition.comment, other.meta.jsdoc</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+				<key>foreground</key>
+				<string>#969896</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSDoc</string>
+			<key>scope</key>
+			<string>variable.other.jsdoc, storage.type.class.jsdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#969896</string>
 			</dict>
