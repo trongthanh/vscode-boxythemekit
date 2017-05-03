@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.5] 2017-05-03
+- [All] Fix invalid characters background color not used by VSCode, making them looks invisible in some theme
+
+## [0.0.4] 2017-02-14
+- [Tomorrow] Change JSDoc color to gray since they look extremely cluttered with color
+
 ## [0.0.3] 2017-01-20
 - Fix coloring of HTML attribute strings in Tomorrow theme
 

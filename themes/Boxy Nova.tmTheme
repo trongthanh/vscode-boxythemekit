@@ -111,9 +111,9 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#df8c8c</string>
-				<key>foreground</key>
 				<string>#ffffff</string>
+        <key>foreground</key>
+        <string>#df8c8c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -124,9 +124,9 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#9a93e1</string>
-				<key>foreground</key>
 				<string>#ffffff</string>
+        <key>foreground</key>
+        <string>#9a93e1</string>
 			</dict>
 		</dict>
 		<dict>
