@@ -2,13 +2,13 @@
     "name": "theme-boxythemekit",
     "displayName": "Boxy Theme Kit",
     "description": "Tomorrow Night, Monokai, Nova, Ocean, Solarized Dark, Solarized Light, and Yesterday color schemes in Sublime Boxy Theme kit.",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "publisher": "trongthanh",
     "license": "LICENSE.md",
     "homepage": "https://github.com/trongthanh/vscode-boxythemekit",
 
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "^1.12.0"
     },
     "categories": [
         "Themes"
@@ -19,37 +19,37 @@
             {
                 "label": "Boxy Tomorrow",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Tomorrow.tmTheme"
+                "path": "./themes/Boxy Tomorrow.json"
             },
             {
                 "label": "Boxy Monokai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Monokai.tmTheme"
+                "path": "./themes/Boxy Monokai.json"
             },
             {
                 "label": "Boxy Nova",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Nova.tmTheme"
+                "path": "./themes/Boxy Nova.json"
             },
             {
                 "label": "Boxy Ocean",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Ocean.tmTheme"
+                "path": "./themes/Boxy Ocean.json"
             },
             {
                 "label": "Boxy Solarized Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Solarized Dark.tmTheme"
+                "path": "./themes/Boxy Solarized Dark.json"
             },
             {
                 "label": "Boxy Solarized Light",
                 "uiTheme": "vs",
-                "path": "./themes/Boxy Solarized Light.tmTheme"
+                "path": "./themes/Boxy Solarized Light.json"
             },
             {
                 "label": "Boxy Yesterday",
                 "uiTheme": "vs",
-                "path": "./themes/Boxy Yesterday.tmTheme"
+                "path": "./themes/Boxy Yesterday.json"
             }
         ]
     }
