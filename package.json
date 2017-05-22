@@ -7,7 +7,7 @@
     "license": "MIT",
     "homepage": "https://github.com/trongthanh/vscode-boxythemekit",
     "scripts": {
-        "publish": "vsce publish"
+        "vsce-publish": "echo please run 'vsce publish'"
     },
     "engines": {
         "vscode": "^1.12.0"
