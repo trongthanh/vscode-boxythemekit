@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.1] 2017-06-07
+- [Ocean] Customize sidebar & workbench to match with color scheme. Thanks @dganoff
+
 ## [0.1.0] 2017-05-22
 - [All] Convert tmTheme file to json to support workbench theming
 - [All] Set more decent color for the status bar with & without folder using new workbench theming capability

@@ -18,6 +18,8 @@ For other themes, please feel free to send PR (please respect the original theme
 
 ## Boxy Ocean
 
+- Has custom workbench theming. Thanks @dganoff.
+
 ![ocean-preview](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/ocean-preview.png)
 
 ## Boxy Solarized Dark
@@ -30,7 +32,8 @@ For other themes, please feel free to send PR (please respect the original theme
 
 ## Boxy Tomorrow
 
-This theme is based on the original Tomorrow Night theme with better syntax coloring for HTML, XML, Markdown, JSON, etc.
+- This theme is based on the original Tomorrow Night theme with better syntax coloring for HTML, XML, Markdown, JSON, etc.
+- The comment doc tags were dimmed to avoid clutter.
 
 ![](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/tomorrow-night-preview.png)
 
