@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.2.0] 2017-11-20
+- [Solarize Dark] Add workbench customization. Thanks @prog-rajkamal
+- Update README with recommended customizations.
+
 ## [0.1.1] 2017-06-07
 - [Ocean] Customize sidebar & workbench to match with color scheme. Thanks @dganoff
 

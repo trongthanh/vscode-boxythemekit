@@ -72,11 +72,13 @@ There are workbench customizations mostly based on contributors' preferences. So
 
 ## Boxy Ocean
 
-- Has custom workbench theming. Thanks @dganoff.
+- Has custom workbench theming. Thanks [@dganoff](https://github.com/dganoff).
 
 ![ocean-preview](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/ocean-preview.png)
 
 ## Boxy Solarized Dark
+
+- Has custom workbench theming. Thanks [@prog-rajkamal](https://github.com/prog-rajkamal).
 
 ![solarized-dark-preview](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/solarized-dark-preview.png)
 
