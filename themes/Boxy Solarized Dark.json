@@ -8,8 +8,26 @@
 		"editorCursor.foreground": "#839496",
 		"editorWhitespace.foreground": "#586e75",
 		"editorIndentGuide.background": "#ffffff25",
-        "statusBar.background": "#2a2b2d",
-        "statusBar.noFolderBackground": "#2a4466"
+		"statusBar.noFolderBackground": "#2a4466",
+		"statusBar.foreground": "#839496",
+        "statusBar.background": "#002b36cc",
+        "activityBar.background": "#002b36",
+        "activityBar.foreground": "#839496",
+		"sideBar.background": "#002b36aa",
+		"sideBarTitle.foreground": "#B3CACC",
+		"list.activeSelectionBackground": "#004454DD",
+		"list.inactiveSelectionBackground": "#004454AA",
+		"list.focusBackground": "#005A6F",
+		"list.hoverBackground": "#002b36AA",
+		"list.dropBackground": "#00445488",
+		"list.highlightForeground": "#1ebcc5",
+
+		// Workbench Tabs
+		"tab.activeForeground": "#d6dbdb",
+		"tab.activeBackground": "#002B37",
+		"tab.inactiveForeground": "#93A1A1",
+		"tab.inactiveBackground": "#004052",
+		"tab.border": "#003847"
 	},
 	"tokenColors": [
 		{
