@@ -4,7 +4,7 @@
 
 - [Ocean, Solarize Dark] Use solid background for sidebar and command panel. (It's hard to read with transparent panel on top of editor)
 - [Ocean] Added dimmed bg version
-- [All] Fix markdown's inline code (``) not applicable from theme (Sublime Text's tmTheme incompatibility)
+- [All] Fix markdown's inline code (\`\`) not applicable from theme (Sublime Text's tmTheme incompatibility)
 
 ## [0.2.0] 2017-11-20
 
