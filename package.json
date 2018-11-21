@@ -6,6 +6,10 @@
 	"publisher": "trongthanh",
 	"license": "MIT",
 	"homepage": "https://github.com/trongthanh/vscode-boxythemekit",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/trongthanh/vscode-boxythemekit.git"
+	},
 	"scripts": {
 		"vsce-publish": "echo please run 'vsce publish'"
 	},
@@ -15,7 +19,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
+	"icon": "icon.png",
 	"contributes": {
 		"themes": [
 			{
