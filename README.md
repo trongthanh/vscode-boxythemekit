@@ -31,10 +31,10 @@ This will make workbench text smaller to make it less distracted, more room to d
 
 ```json
 {
-    "window.zoomLevel": -0.5,
-    "editor.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
-    "fontshortcuts.defaultFontSize": 16, // if use fontshortcuts extension
+	"window.zoomLevel": -0.5,
+	"editor.fontSize": 16,
+	"terminal.integrated.fontSize": 16,
+	"fontshortcuts.defaultFontSize": 16 // if use fontshortcuts extension
 }
 ```
 
@@ -44,21 +44,21 @@ There are workbench customizations mostly based on contributors' preferences. So
 
 ```json
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#333333",
-        "activityBar.foreground": "#cccccc",
-        "activityBarBadge.background": "#007acc",
-        "editor.background": "#1E1E1E",
-        "editor.foreground": "#D4D4D4",
-        "editor.inactiveSelectionBackground": "#3A3D41",
-        "editor.selectionHighlightBackground": "#ADD6FF26",
-        "editorIndentGuide.background": "#404040",
-        "list.dropBackground": "#383B3D",
-        "list.hoverBackground": "#2a2d2d",
-        "sideBar.background": "#252525",
-        "sideBarTitle.foreground": "#BBBBBB",
-        "tab.inactiveBackground": "#2d2d2d"
-    }
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#333333",
+		"activityBar.foreground": "#cccccc",
+		"activityBarBadge.background": "#007acc",
+		"editor.background": "#1E1E1E",
+		"editor.foreground": "#D4D4D4",
+		"editor.inactiveSelectionBackground": "#3A3D41",
+		"editor.selectionHighlightBackground": "#ADD6FF26",
+		"editorIndentGuide.background": "#404040",
+		"list.dropBackground": "#383B3D",
+		"list.hoverBackground": "#2a2d2d",
+		"sideBar.background": "#252525",
+		"sideBarTitle.foreground": "#BBBBBB",
+		"tab.inactiveBackground": "#2d2d2d"
+	}
 }
 ```
 
@@ -75,6 +75,13 @@ There are workbench customizations mostly based on contributors' preferences. So
 - Has custom workbench theming. Thanks [@dganoff](https://github.com/dganoff).
 
 ![ocean-preview](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/ocean-preview.png)
+
+## Boxy Ocean (dimmed bg)
+
+- Has custom workbench (based on Boxy Ocean)
+- Editor's background is dimmed to make text easier to read, esp. for long period and in dark environment
+
+![ocean-dimmed-preview](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/ocean-dimmed-preview.png)
 
 ## Boxy Solarized Dark
 

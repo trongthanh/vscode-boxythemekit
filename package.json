@@ -1,58 +1,68 @@
 {
-    "name": "theme-boxythemekit",
-    "displayName": "Boxy Theme Kit",
-    "description": "Tomorrow Night, Monokai, Nova, Ocean, Solarized Dark, Solarized Light, and Yesterday color schemes in Sublime Boxy Theme kit.",
-    "version": "0.2.0",
-    "publisher": "trongthanh",
-    "license": "MIT",
-    "homepage": "https://github.com/trongthanh/vscode-boxythemekit",
-    "scripts": {
-        "vsce-publish": "echo please run 'vsce publish'"
-    },
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.svg",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Boxy Tomorrow",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Tomorrow.json"
-            },
-            {
-                "label": "Boxy Monokai",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Monokai.json"
-            },
-            {
-                "label": "Boxy Nova",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Nova.json"
-            },
-            {
-                "label": "Boxy Ocean",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Ocean.json"
-            },
-            {
-                "label": "Boxy Solarized Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Boxy Solarized Dark.json"
-            },
-            {
-                "label": "Boxy Solarized Light",
-                "uiTheme": "vs",
-                "path": "./themes/Boxy Solarized Light.json"
-            },
-            {
-                "label": "Boxy Yesterday",
-                "uiTheme": "vs",
-                "path": "./themes/Boxy Yesterday.json"
-            }
-        ]
-    }
+	"name": "theme-boxythemekit",
+	"displayName": "Boxy Theme Kit",
+	"description": "Tomorrow Night, Monokai, Nova, Ocean, Solarized Dark, Solarized Light, and Yesterday color schemes in Sublime Boxy Theme kit.",
+	"version": "0.3.0",
+	"publisher": "trongthanh",
+	"license": "MIT",
+	"homepage": "https://github.com/trongthanh/vscode-boxythemekit",
+	"scripts": {
+		"vsce-publish": "echo please run 'vsce publish'"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Boxy Tomorrow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Boxy Tomorrow.json"
+			},
+			{
+				"label": "Boxy Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Boxy Monokai.json"
+			},
+			{
+				"label": "Boxy Nova",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Boxy Nova.json"
+			},
+			{
+				"label": "Boxy Ocean",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Boxy Ocean.json"
+			},
+			{
+				"label": "Boxy Ocean (dimmed bg)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Boxy Ocean dimmed.json"
+			},
+			{
+				"label": "Boxy Solarized Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Boxy Solarized Dark.json"
+			},
+			{
+				"label": "Boxy Solarized Light",
+				"uiTheme": "vs",
+				"path": "./themes/Boxy Solarized Light.json"
+			},
+			{
+				"label": "Boxy Yesterday",
+				"uiTheme": "vs",
+				"path": "./themes/Boxy Yesterday.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6df845ea-159a-4848-bdf4-60d9b2cbd13c",
+		"publisherDisplayName": "Thanh Tran",
+		"publisherId": "4796ba5e-65ce-4e04-853b-798ae85f900b"
+	}
 }

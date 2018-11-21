@@ -286,7 +286,7 @@
 		},
 		{
 			"name": "Markdown - Markup Raw Inline",
-			"scope": "text.html.markdown markup.raw.inline",
+			"scope": "text.html.markdown markup.inline.raw",
 			"settings": {
 				"background": "#ffffff08",
 				"foreground": "#c5d4ddcc"
@@ -391,7 +391,7 @@
 		},
 		{
 			"name": "Markdown - Raw Block Fenced",
-			"scope": "markup.raw.block.fenced.markdown",
+			"scope": "markup.fenced_code.block.markdown",
 			"settings": {
 				"background": "#ffffff08"
 			}
@@ -405,7 +405,7 @@
 		},
 		{
 			"name": "Markdown - Fenced Bode Block Variable",
-			"scope": "markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end",
+			"scope": "markup.fenced_code.block.markdown, variable.language.fenced.markdown, punctuation.section.class.end",
 			"settings": {
 				"foreground": "#c5d4dd"
 			}
@@ -518,7 +518,7 @@
 		},
 		{
 			"name": "Markdown - Admonition Element Background",
-			"scope": "markup.admonition.markdown markup.table, markup.admonition.markdown markup.raw, markup.admonition.markdown markup.raw.block.fenced meta.language, markup.admonition.markdown punctuation.definition.blockquote.markdown, markup.admonition.markdown meta.separator, markup.admonition.markdown markup.raw.inline, markup.admonition.markdown markup.raw.block",
+			"scope": "markup.admonition.markdown markup.table, markup.admonition.markdown markup.raw, markup.admonition.markdown markup.raw.block.fenced meta.language, markup.admonition.markdown punctuation.definition.blockquote.markdown, markup.admonition.markdown meta.separator, markup.admonition.markdown markup.inline.raw, markup.admonition.markdown markup.raw.block",
 			"settings": {
 				"background": "#d18ec225"
 			}
@@ -562,7 +562,7 @@
 		},
 		{
 			"name": "Markdown - Admonition Element Background (Hint)",
-			"scope": "markup.admonition.markdown.hint markup.table, markup.admonition.markdown.hint markup.raw, markup.admonition.markdown.hint markup.raw.block.fenced meta.language, markup.admonition.markdown.hint punctuation.definition.blockquote.markdown, markup.admonition.markdown.hint meta.separator, markup.admonition.markdown.hint markup.raw.inline, markup.admonition.markdown.hint markup.raw.block",
+			"scope": "markup.admonition.markdown.hint markup.table, markup.admonition.markdown.hint markup.raw, markup.admonition.markdown.hint markup.raw.block.fenced meta.language, markup.admonition.markdown.hint punctuation.definition.blockquote.markdown, markup.admonition.markdown.hint meta.separator, markup.admonition.markdown.hint markup.inline.raw, markup.admonition.markdown.hint markup.raw.block",
 			"settings": {
 				"background": "#83afe525"
 			}
@@ -606,7 +606,7 @@
 		},
 		{
 			"name": "Markdown - Admonition Element Background (Warning)",
-			"scope": "markup.admonition.markdown.warning markup.table, markup.admonition.markdown.warning markup.raw, markup.admonition.markdown.warning markup.raw.block.fenced meta.language, markup.admonition.markdown.warning punctuation.definition.blockquote.markdown, markup.admonition.markdown.warning meta.separator, markup.admonition.markdown.warning markup.raw.inline, markup.admonition.markdown.warning markup.raw.block",
+			"scope": "markup.admonition.markdown.warning markup.table, markup.admonition.markdown.warning markup.raw, markup.admonition.markdown.warning markup.raw.block.fenced meta.language, markup.admonition.markdown.warning punctuation.definition.blockquote.markdown, markup.admonition.markdown.warning meta.separator, markup.admonition.markdown.warning markup.inline.raw, markup.admonition.markdown.warning markup.raw.block",
 			"settings": {
 				"background": "#dada9325"
 			}
@@ -650,7 +650,7 @@
 		},
 		{
 			"name": "Markdown - Admonition Element Background (Danger)",
-			"scope": "markup.admonition.markdown.danger markup.table, markup.admonition.markdown.danger markup.raw, markup.admonition.markdown.danger markup.raw.block.fenced meta.language, markup.admonition.markdown.danger punctuation.definition.blockquote.markdown, markup.admonition.markdown.danger meta.separator, markup.admonition.markdown.danger markup.raw.inline, markup.admonition.markdown.danger markup.raw.block",
+			"scope": "markup.admonition.markdown.danger markup.table, markup.admonition.markdown.danger markup.raw, markup.admonition.markdown.danger markup.raw.block.fenced meta.language, markup.admonition.markdown.danger punctuation.definition.blockquote.markdown, markup.admonition.markdown.danger meta.separator, markup.admonition.markdown.danger markup.inline.raw, markup.admonition.markdown.danger markup.raw.block",
 			"settings": {
 				"background": "#df8c8c25"
 			}
@@ -694,7 +694,7 @@
 		},
 		{
 			"name": "Markdown - Admonition Element Background (Attention)",
-			"scope": "markup.admonition.markdown.attention markup.table, markup.admonition.markdown.attention markup.raw, markup.admonition.markdown.attention markup.raw.block.fenced meta.language, markup.admonition.markdown.attention punctuation.definition.blockquote.markdown, markup.admonition.markdown.attention meta.separator, markup.admonition.markdown.attention markup.raw.inline, markup.admonition.markdown.attention markup.raw.block",
+			"scope": "markup.admonition.markdown.attention markup.table, markup.admonition.markdown.attention markup.raw, markup.admonition.markdown.attention markup.raw.block.fenced meta.language, markup.admonition.markdown.attention punctuation.definition.blockquote.markdown, markup.admonition.markdown.attention meta.separator, markup.admonition.markdown.attention markup.inline.raw, markup.admonition.markdown.attention markup.raw.block",
 			"settings": {
 				"background": "#a8ce9325"
 			}
