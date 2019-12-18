@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.4.0] 2019-12-18
+
+- [All] Use different color for object literal key and destructuring key binding to improve code readability. See demo screenshots for example.
+
 ## [0.3.0] 2018-11-20
 
 - [Ocean, Solarize Dark] Use solid background for sidebar and command panel. (It's hard to read with transparent panel on top of editor)
