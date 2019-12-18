@@ -1,8 +1,9 @@
 # Change Log
 
-## [0.4.0] 2019-12-18
+## [0.4.0~1] 2019-12-18
 
 - [All] Use different color for object literal key and destructuring key binding to improve code readability. See demo screenshots for example.
+- Reduce package size by ignoring preview images and other unused files.
 
 ## [0.3.0] 2018-11-20
 

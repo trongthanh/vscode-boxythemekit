@@ -1,0 +1,8 @@
+# these images are for README documentation and linked via github.com
+images/*
+# demo code is not part of the extension
+demo.js
+# .vscode settings
+.vscode/
+# SVG are not permitted
+*.svg
