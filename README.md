@@ -1,10 +1,11 @@
-# Boxy Theme Kit
+# Boxy Theme Kit for Visual Studio Code
+[![VSCode download badge](https://img.shields.io/visual-studio-marketplace/i/trongthanh.theme-boxythemekit?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=trongthanh.theme-boxythemekit)
 
 A set of color themes based on Sublime's [Boxy Theme](https://github.com/ihodev/sublime-boxy).
 
-All props go to Boxy Theme's author Ihor Oleksandrov. I just republish these theme files to VSCode Marketplace.
+All props go to Boxy Theme's author Ihor Oleksandrov. I have ported these theme files to VSCode's theme format and published to VSCode Marketplace.
 
-My favorite theme in this set is Tomorrow (Night), so I'll keep fixing its syntax color and tweaking the workbench theme to match.
+My favorite themes in this set are Tomorrow (Night) and Ocean, so I'll keep fixing its syntax color and tweaking the workbench theme to match.
 
 For other themes, please feel free to send PR (please respect the original theme, just fix the coloring issues), I'll publish changes as soon as possible.
 
@@ -34,7 +35,6 @@ This will make workbench text smaller to make it less distracted, more room to d
 	"window.zoomLevel": -0.5,
 	"editor.fontSize": 16,
 	"terminal.integrated.fontSize": 16,
-	"fontshortcuts.defaultFontSize": 16 // if use fontshortcuts extension
 }
 ```
 
@@ -79,7 +79,7 @@ There are workbench customizations mostly based on contributors' preferences. So
 ## Boxy Ocean (dimmed bg)
 
 - Has custom workbench (based on Boxy Ocean)
-- Editor's background is dimmed to make text easier to read, esp. for long period and in dark environment
+- Editor's background is dimmed to improve contrast and make text easier to read for long period.
 
 ![ocean-dimmed-preview](https://raw.githubusercontent.com/trongthanh/vscode-boxythemekit/master/images/ocean-dimmed-preview.png)
 
