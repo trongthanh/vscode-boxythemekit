@@ -68,7 +68,7 @@
 		},
 		{
 			"name": "Operator, Misc",
-			"scope": "meta.object-literal.key, variable.object.property, keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+			"scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
 			"settings": {
 				"foreground": "#5fb3b3"
 			}
@@ -103,7 +103,7 @@
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+			"scope": "meta.object-literal.key, variable.object.property, string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#99c794"
