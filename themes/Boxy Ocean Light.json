@@ -5,13 +5,13 @@
 		"editor.foreground": "#17242b",
 		"editor.selectionBackground": "#cccccc",
 		"editor.lineHighlightBackground": "#e6e6e6",
-		"editorCursor.foreground": "#ab7967",
+		"editorCursor.foreground": "#2673c0",
 		"editorWhitespace.foreground": "#FAFAFA",
 		"editorIndentGuide.activeBackground": "#9D9D9F",
 		"editorIndentGuide.background": "#e6e6e6",
 		"editorLineNumber.foreground": "#9D9D9F",
 		"editorLineNumber.activeForeground": "#383A42",
-		"editorBracketMatch.border": "#f99157",
+		"editorBracketMatch.border": "#99c794",
 		"editorBracketMatch.background": "#ffffff",
 		"statusBar.background": "#cccccc",
 		"statusBar.foreground": "#1b2b34",
@@ -37,7 +37,7 @@
 		},
 		{
 			"name": "Comments",
-			"scope": "comment, punctuation.definition.comment",
+			"scope": "comment, comment punctuation.definition.comment",
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#ababab"
@@ -45,7 +45,7 @@
 		},
 		{
 			"name": "Comments, JSDoc",
-			"scope": "variable.other.jsdoc",
+			"scope": "comment variable.other",
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#65737e"
@@ -53,21 +53,19 @@
 		},
 		{
 			"name": "Comments, JSDoc, Punctuation",
-			"scope": "punctuation.definition.block.tag.jsdoc, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
+			"scope": "comment punctuation.definition.block.tag, comment punctuation.definition.bracket.curly",
 			"settings": {
 				"foreground": "#5fb3b3"
 			}
 		},
 		{
 			"name": "Comments, JSDoc, Type",
-			"scope": "storage.type.class.jsdoc",
+			"scope": "comment storage.type",
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#c594c5"
 			}
 		},
-
-
 		{
 			"name": "Variable",
 			"scope": "variable, string constant.other.placeholder",
@@ -338,7 +336,7 @@
 			"name": "Markdown - Line Break",
 			"scope": "text.html.markdown meta.dummy.line-break",
 			"settings": {
-				"foreground": "#ffffff50"
+				"foreground": "#334466"
 			}
 		},
 		{
@@ -346,6 +344,13 @@
 			"scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
 			"settings": {
 				"foreground": "#c20a13"
+			}
+		},
+		{
+			"name": "Markup Heading",
+			"scope": "markup.heading, markup.heading.markdown string.other.link.title.markdown",
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -374,7 +379,7 @@
 			"scope": "markup.underline",
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#4da244"
+				"foreground": "#ababab"
 			}
 		},
 		{
@@ -390,7 +395,6 @@
 			"scope": "markup.quote punctuation.definition.blockquote.markdown",
 			"settings": {
 				"background": "#ffffff16",
-				"fontStyle": "",
 				"foreground": "#ffffff16"
 			}
 		},
@@ -404,9 +408,17 @@
 		},
 		{
 			"name": "Markdown - Link",
-			"scope": "string.other.link.title.markdown",
+			"scope": "string.other.link.title",
 			"settings": {
 				"foreground": "#2673c0"
+			}
+		},
+		{
+			"name": "Markup - Quote Links",
+			"scope": "markup.quote string.other.link.title",
+			"settings": {
+				"foreground": "#2673c0",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -456,15 +468,13 @@
 			"name": "Markdown - Fenced Bode Block Punctuation",
 			"scope": "punctuation.definition.fenced.markdown, meta.definition.language.raw.block.fenced.markdown",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#ffffff50"
+				"foreground": "#334466"
 			}
 		},
 		{
 			"name": "Markdown - Fenced Language",
 			"scope": "variable.language.fenced.markdown",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#65737e"
 			}
 		},
@@ -489,8 +499,22 @@
 			"name": "Markdown - Punctuation Definition",
 			"scope": "text.html.markdown punctuation.definition, text.html.markdown.note punctuation.definition.list_item.markdown, markup.table.markdown punctuation.definition.table.vertical-line.markdown, text.html.markdown markup.checkbox.markdown",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#ffffff50"
+				"foreground": "#027979"
+			}
+		},
+		{
+			"name": "Markdown - Punctuation Definition List Begin",
+			"scope": "text.html.markdown punctuation.definition.list.begin",
+			"settings": {
+				"foreground": "#cd5818"
+			}
+		},
+		{
+			"name": "Markdown - Punctuation Definition Block Quote",
+			"scope": "text.html.markdown punctuation.definition.quote.begin",
+			"settings": {
+				"foreground": "#ab7967",
+				"fontStyle": "normal"
 			}
 		},
 		{

@@ -6,3 +6,5 @@ demo.js
 .vscode/
 # SVG are not permitted
 *.svg
+# Local files
+*.local

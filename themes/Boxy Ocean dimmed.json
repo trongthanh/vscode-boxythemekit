@@ -3,23 +3,28 @@
 	"colors": {
 		"editor.background": "#142026",
 		"editor.foreground": "#cdd3de",
-		"editor.selectionBackground": "#ffffff16",
+		"editor.selectionBackground": "#ffffff20",
 		"editor.lineHighlightBackground": "#ffffff10",
-		"editorCursor.foreground": "#cdd3de",
+		"editorCursor.foreground": "#6699cc",
 		"editorWhitespace.foreground": "#65737e",
 		"editorIndentGuide.background": "#ffffff25",
-		"statusBar.background": "#1b2b34",
+		"editorWidget.background": "#1f2931",
+		"editorBracketMatch.border": "#4da244",
+		"editorBracketMatch.background": "#000000",
+		"statusBar.background": "#1f2931",
 		"statusBar.foreground": "#ababab",
 		"statusBar.noFolderBackground": "#334466",
-		"activityBar.background": "#17242b",
-		"activityBar.foreground": "#99dc9e",
-		"activityBarBadge.background": "#ec5f67cc",
 		"sideBar.background": "#1f2931",
-		"list.activeSelectionBackground": "#0e1f29",
-		"list.inactiveSelectionBackground": "#0e1f29",
-		"list.hoverBackground": "#0e1f29",
-		"tab.inactiveBackground": "#0e1f29",
-		"titleBar.activeBackground": "#0e1f29"
+		"activityBar.background": "#28343E",
+		"activityBarBadge.background": "#2673c0",
+		"list.activeSelectionBackground": "#383A42",
+		"list.inactiveSelectionBackground": "#383A42",
+		"list.inactiveSelectionForeground": "#ffffff",
+		"list.hoverBackground": "#383A42",
+		"quickInput.background":  "#1f2931",
+		"quickInput.foreground":  "#cdd3de",
+		"tab.inactiveBackground": "#28343E",
+		"titleBar.activeBackground": "#28343E"
 	},
 	"tokenColors": [
 		{
@@ -34,6 +39,29 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#65737e"
+			}
+		},
+		{
+			"name": "Comments, JSDoc",
+			"scope": "comment variable.other",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#9D9D9F"
+			}
+		},
+		{
+			"name": "Comments, JSDoc, Punctuation",
+			"scope": "comment punctuation.definition.block.tag, comment punctuation.definition.bracket.curly",
+			"settings": {
+				"foreground": "#5fb3b399"
+			}
+		},
+		{
+			"name": "Comments, JSDoc, Type",
+			"scope": "comment storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#c594c599"
 			}
 		},
 		{
@@ -317,6 +345,13 @@
 			}
 		},
 		{
+			"name": "Markup Heading",
+			"scope": "markup.heading, markup.heading.markdown string.other.link.title.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Markup - Italic",
 			"scope": "markup.italic, markup.italic string",
 			"settings": {
@@ -342,7 +377,7 @@
 			"scope": "markup.underline",
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#99c794"
+				"foreground": "#445B88"
 			}
 		},
 		{
@@ -364,17 +399,25 @@
 		},
 		{
 			"name": "Markup - Quote",
-			"scope": "markup.quote",
+			"scope": "markup.quote, markup.quote.markdown",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#65737e"
+				"foreground": "#9D9D9F"
 			}
 		},
 		{
 			"name": "Markdown - Link",
-			"scope": "string.other.link.title.markdown",
+			"scope": "string.other.link.title",
 			"settings": {
 				"foreground": "#6699cc"
+			}
+		},
+		{
+			"name": "Markup - Quote Links",
+			"scope": "markup.quote string.other.link.title",
+			"settings": {
+				"foreground": "#6699cc",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -457,8 +500,22 @@
 			"name": "Markdown - Punctuation Definition",
 			"scope": "text.html.markdown punctuation.definition, text.html.markdown.note punctuation.definition.list_item.markdown, markup.table.markdown punctuation.definition.table.vertical-line.markdown, text.html.markdown markup.checkbox.markdown",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#ffffff50"
+			}
+		},
+		{
+			"name": "Markdown - Punctuation Definition List Begin",
+			"scope": "text.html.markdown punctuation.definition.list.begin",
+			"settings": {
+				"foreground": "#fac863"
+			}
+		},
+		{
+			"name": "Markdown - Punctuation Definition Block Quote",
+			"scope": "text.html.markdown punctuation.definition.quote.begin",
+			"settings": {
+				"foreground": "#ab7967",
+				"fontStyle": "normal"
 			}
 		},
 		{
