@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.5.0] 2021-08-16
+
+- [Ocean] Tweaking **Boxy Ocean (dimmed bg)** workbench and markdown syntax coloring
+- [Ocean] NEW **Boxy Ocean Light** theme.
+
 ## [0.4.0~1] 2019-12-18
 
 - [All] Use different color for object literal key and destructuring key binding to improve code readability. See demo screenshots for example.

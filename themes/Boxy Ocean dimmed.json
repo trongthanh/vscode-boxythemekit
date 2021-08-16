@@ -11,6 +11,7 @@
 		"editorWidget.background": "#1f2931",
 		"editorBracketMatch.border": "#4da244",
 		"editorBracketMatch.background": "#000000",
+		"editorGroupHeader.tabsBackground": "#1f2931",
 		"statusBar.background": "#1f2931",
 		"statusBar.foreground": "#ababab",
 		"statusBar.noFolderBackground": "#334466",

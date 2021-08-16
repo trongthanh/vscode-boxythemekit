@@ -2,7 +2,7 @@
 	"name": "theme-boxythemekit",
 	"displayName": "Boxy Theme Kit",
 	"description": "Tomorrow Night, Monokai, Nova, Ocean, Solarized Dark, Solarized Light, and Yesterday color schemes in Sublime Boxy Theme kit.",
-	"version": "0.4.1",
+	"version": "0.5.0",
 	"publisher": "trongthanh",
 	"license": "MIT",
 	"homepage": "https://github.com/trongthanh/vscode-boxythemekit",
