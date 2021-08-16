@@ -11,7 +11,7 @@
 		"url": "https://github.com/trongthanh/vscode-boxythemekit.git"
 	},
 	"scripts": {
-		"vsce-publish": "echo please run 'vsce publish'"
+		"vsce-publish": "vsce publish"
 	},
 	"engines": {
 		"vscode": "^1.12.0"
