@@ -60,7 +60,7 @@
 		},
 		{
 			"name": "Keyword, Storage",
-			"scope": "keyword, storage.type, storage.modifier",
+			"scope": "keyword, storage.type, storage.modifier, storage.control",
 			"settings": {
 				"foreground": "#c594c5"
 			}
@@ -110,7 +110,7 @@
 		},
 		{
 			"name": "Class, Support",
-			"scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
+			"scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, meta.metadata.simple",
 			"settings": {
 				"foreground": "#fac863"
 			}
