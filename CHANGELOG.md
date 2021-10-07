@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.5.2] 2021-10-07
+
+- [All] Add support for some scopes used for clojure (via calva). Thanks [@forivall](https://github.com/forivall)
+
 ## [0.5.0] 2021-08-16
 
 - [Ocean] Tweaking **Boxy Ocean (dimmed bg)** workbench and markdown syntax coloring
