@@ -140,7 +140,7 @@
 		},
 		{
 			"name": "Class, Support",
-			"scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, meta.metadata.simple",
+			"scope": "entity.name.type, entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, meta.metadata.simple",
 			"settings": {
 				"foreground": "#fac863"
 			}
