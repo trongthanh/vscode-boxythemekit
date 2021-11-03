@@ -3,8 +3,10 @@
 	"colors": {
 		"editor.background": "#FAFAFA",
 		"editor.foreground": "#17242b",
+		"editor.findMatchBackground": "#bb80b375",
 		"editor.selectionBackground": "#e6e6e6",
 		"editor.lineHighlightBackground": "#e6e6e6",
+		"editor.rangeHighlightBackground": "#dddddd",
 		"editorCursor.foreground": "#2673c0",
 		"editorWhitespace.foreground": "#9D9D9F",
 		"editorIndentGuide.activeBackground": "#9D9D9F",
@@ -141,7 +143,7 @@
 		},
 		{
 			"name": "Class, Support",
-			"scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, meta.metadata.simple",
+			"scope": "entity.name.type, entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, meta.metadata.simple",
 			"settings": {
 				"foreground": "#c98f1d"
 			}

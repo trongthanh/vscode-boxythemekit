@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.5.3] 2021-11-03
+
+- [Ocean Light] Fix search result highlight background make texts unreadable
+- [Ocean\*] Use a neutral hue for Markdown inline code to improve readability
+- [Ocean\*] Improve JSDoc syntax highlighting for @type
+
 ## [0.5.2] 2021-10-07
 
 - [All] Add support for some scopes used for clojure (via calva). Thanks [@forivall](https://github.com/forivall)
