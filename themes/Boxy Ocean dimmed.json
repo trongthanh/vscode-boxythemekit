@@ -327,8 +327,7 @@
 			"name": "Markdown - Markup Raw Inline",
 			"scope": "text.html.markdown markup.inline.raw",
 			"settings": {
-				"background": "#ffffff08",
-				"foreground": "#99c794"
+				"foreground": "#9D9D9F"
 			}
 		},
 		{
