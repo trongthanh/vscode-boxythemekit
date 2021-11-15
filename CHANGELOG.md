@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.5.4] 2021-11-15
+
+- [All] Fix colorization of customized Python functions. Thanks [@parachutel](https://github.com/parachutel).
+
 ## [0.5.3] 2021-11-03
 
 - [Ocean Light] Fix search result highlight background make texts unreadable
