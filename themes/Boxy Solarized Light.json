@@ -73,7 +73,7 @@
 		},
 		{
 			"name": "Function, Special Method, Block Level",
-			"scope": "entity.name.function, variable.function, support.function, keyword.other.special-method, meta.block-level",
+			"scope": "meta.function-call.generic.python, support.function.builtin.python, entity.name.type.class.templated, entity.name.type.class.generic, entity.name.type.namespace, entity.name.function, variable.function, support.function, keyword.other.special-method, meta.block-level",
 			"settings": {
 				"foreground": "#268bd2"
 			}
